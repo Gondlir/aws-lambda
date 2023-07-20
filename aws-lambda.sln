@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aws.SimpleLambda", "Aws.Sim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aws.SimpleHttpLambda", "Aws.SimpleHttpLambda\src\Aws.SimpleHttpLambda\Aws.SimpleHttpLambda.csproj", "{2D626B30-83F7-4DE1-A0CD-AC99FA8B1953}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aws.SimpleSQSLambda", "Aws.SimpleSQSLambda\src\Aws.SimpleSQSLambda\Aws.SimpleSQSLambda.csproj", "{6A7E5457-3935-4F1A-8169-A0DCF27353B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{2D626B30-83F7-4DE1-A0CD-AC99FA8B1953}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D626B30-83F7-4DE1-A0CD-AC99FA8B1953}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D626B30-83F7-4DE1-A0CD-AC99FA8B1953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7E5457-3935-4F1A-8169-A0DCF27353B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7E5457-3935-4F1A-8169-A0DCF27353B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7E5457-3935-4F1A-8169-A0DCF27353B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7E5457-3935-4F1A-8169-A0DCF27353B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,6 +39,7 @@ Global
 		{49715442-2729-4DFE-AB02-0B5F4D3FB18C} = {41E37CB6-38DC-4ABA-95A7-9F0D81395C92}
 		{F288F49C-626C-4807-B22A-7E90BE681258} = {49715442-2729-4DFE-AB02-0B5F4D3FB18C}
 		{2D626B30-83F7-4DE1-A0CD-AC99FA8B1953} = {49715442-2729-4DFE-AB02-0B5F4D3FB18C}
+		{6A7E5457-3935-4F1A-8169-A0DCF27353B2} = {49715442-2729-4DFE-AB02-0B5F4D3FB18C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2D71B752-BA55-4172-ADAF-6AFDB2B8C3DF}
