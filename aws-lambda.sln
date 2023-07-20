@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{41E37CB6-38DC-4ABA-95A7-9F0D81395C92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{49715442-2729-4DFE-AB02-0B5F4D3FB18C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aws.SimpleLambda", "Aws.SimpleLambda\src\Aws.SimpleLambda\Aws.SimpleLambda.csproj", "{F288F49C-626C-4807-B22A-7E90BE681258}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F288F49C-626C-4807-B22A-7E90BE681258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F288F49C-626C-4807-B22A-7E90BE681258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F288F49C-626C-4807-B22A-7E90BE681258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F288F49C-626C-4807-B22A-7E90BE681258}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49715442-2729-4DFE-AB02-0B5F4D3FB18C} = {41E37CB6-38DC-4ABA-95A7-9F0D81395C92}
+		{F288F49C-626C-4807-B22A-7E90BE681258} = {49715442-2729-4DFE-AB02-0B5F4D3FB18C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D71B752-BA55-4172-ADAF-6AFDB2B8C3DF}
+	EndGlobalSection
+EndGlobal
